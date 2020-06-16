@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;700&family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section class="header">
+    <section class="header__up">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-md-8">
+                    <div class="call-us d-flex">
+                        <p class="call-us__description">
+                            Questions? Need Help?
+                        </p>
+                        <p class="call-us__description-text">
+                            Call us on (+123) 456 1500
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="gift-card">
+                        <img src="./img/giftcard.png" alt="#">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="profile">
+                        <img src="./img/loyalityprogram.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header__middle">
+        <div class="container">
+            <div class="row  align-items-center justify-content-between">
+                <div class="col-md-3">
+                    <div class="head-logo">
+                        <img src="./img/logo.png" alt="#">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <form class="search-location d-flex" >
+                        <input type="text" placeholder="Search Location" name="search" class="search__location">
+                        <button type="submit" class="search__location-btn"><i class="fa fa-search "></i></button>
+                      </form>
+                </div>
+                <div class="col-md-1   ">
+                    <div class="cart-wrapper">
+                        <img src="./img/cart.png" alt="#">
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="profile-wrapper">
+                        <img src="./img/profile.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="header__menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="menu">
+                        <ul class="d-flex justify-content-between">
+                            <li><a href="#" class="menu__item">All Deals</a></li>
+                            <li><a href="#" class="menu__item">Hotels</a></li>
+                            <li><a href="#" class="menu__item">Hotel Day Packages</a></li>
+                            <li><a href="#" class="menu__item">Restaurants</a></li>
+                            <li><a href="#" class="menu__item">Events</a></li>
+                            <li><a href="#" class="menu__item">Rodrigues</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navigation">
+                    <p class="navigation__item">Home / Flash Offers / Grand Hilton Hotel</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="hotel">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./img/stars.png" alt="#">
+            </div>
+        </div>
+        <div class="row hotel-title__wrapper">
+            <div class="col-md-12 d-flex justify-content-between">
+                <div class="hotel__title d-flex  ">
+                    <div class="wrapper">
+                        <h2 class="title">GRAND HILTON HOTEL
+                            <img src="./img/offer.png" alt="" class="flash-offer">
+                        </h2>
+                        <div class="natigation__item">
+                            Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-wrapper d-flex align-items-star">
+                    <img src="./img/rattings.png" alt="#">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="grand-hotel__wrapper">
+                    <img src="./img/ghhotel.png" alt="#" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="hotel__info ">
+                    <div class="column-wrapper d-flex justify-content-around">
+                        <div class="left-column flex-column">
+                            <p class="price-start">price starts as</p>
+                            <p class="price">$ 8,500</p>
+                            <p class="per">per room / night</p>
+                            <p class="booking">Quick Booking</p>
+                        </div>
+                        <div class="right-column flex-column">
+                            <div class="guests d-flex align-items-center">
+                                <img src="./img/user.png" alt="#">
+                                <p class="guests_number">2 x Guests</p>
+                            </div>
+                            <div class="rooms d-flex align-items-center">
+                                <img src="./img/room.png" alt="#">
+                                <p class="room__number">1 x Room</p>
+                            </div>
+                            <div class="phone-call d-flex align-items-center">
+                                <img src="./img/phone-call.png" alt="#">
+                                <p class="phone__number">12100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-wrapper d-flex justify-content-center">
+                        <a href="#" class="">
+                            <button class=" button button__cta-hotel ">View Other Options</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="map-wrapper">
+                    <img src="./img/map.png" alt="#" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
